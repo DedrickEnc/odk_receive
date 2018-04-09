@@ -12,7 +12,7 @@ app.use(bodyParser.json({ limit: '20mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
 
 app.post('/', (req, res, next) => {
-    console.log('post works', req.body);
+    console.log('post works, this is the image value', req.body.photo);
 });
 
 
