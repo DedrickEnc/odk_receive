@@ -71,5 +71,3 @@ process.on('uncaughtException', (e) => {
 process.on('warning', (warning) => {
     console.warn('process.onWarning: %o', warning);
 });
-
-
